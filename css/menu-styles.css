@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  margin-left: auto;
+}
+
+nav img {
+
+  max-width: 300px;
+}
+
+nav p, nav a {
+
+  margin-left: 12px;
+  font-size: 13px;
+}
+
+nav a.login {
+
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  color: #212121;
+  font-weight: 800;
+  padding: .5em 1.2em;
+}
+
+nav a.login:active {
+
+  opacity: 0.7;
+}
+
+nav select.language-selection {
+
+  padding: 1em;
+}
+
+a.gflag {vertical-align:middle;font-size:16px;padding:1px 0;background-repeat:no-repeat;background-image:url(//gtranslate.net/flags/16.png);}
+a.gflag img {border:0;}
+a.gflag:hover {background-image:url(//gtranslate.net/flags/16a.png);}
+#goog-gt-tt {display:none !important;}
+.goog-te-banner-frame {display:none !important;}
+.goog-te-menu-value:hover {text-decoration:none !important;}
+body {top:0 !important;}
+#google_translate_element {display:none!important;}

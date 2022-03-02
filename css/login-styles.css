@@ -1,0 +1,235 @@
+body {
+
+  background: url("../img/backgrounds/login_transparent.png"), #000;
+  background-size: cover;
+  background-position: top 10% right 65%;
+  background-repeat: no-repeat;
+}
+
+.fsize-24 { font-size: 24px !important; }
+.color-888, .color-888 font { color: #888 !important; } 
+.form-error { width: 32% !important; margin: auto; display: block; }
+
+.margin-for-rows {
+
+  margin-top: 2em;
+}
+
+header div.logo-container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+header div.logo-container img {
+
+  max-width: 500px;
+}
+
+header div.form-container {
+
+  display: flex;
+  justify-content: center;
+  padding: 1em 1em;
+}
+
+form.form-register {
+
+  padding: 1em;
+}
+
+form.form-login {
+  width: 35% !important;
+}
+
+form.form-login div.inputs-container {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1em 1em;
+}
+
+form.form-login input.input-text {
+
+  background-color: rgba(255, 255, 255, 0.2);
+  border: solid;
+  border-color: #FFFFFF;
+  border-radius: 15px;
+  outline: none;
+  color: #FFFFFF;
+  width: 100%;
+  padding: 1em;
+}
+
+form.form-login input.input-text::placeholder {
+
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+form.form-login div.checkbox-container {
+
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+form.form-login div.checkbox-container label {
+
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+form.form-login div.checkbox-container label input {
+
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.check {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #f8f8f8 !important;
+  border-radius: 5px;
+}
+
+form.form-login div.checkbox-container label:hover input ~ .check {
+
+  background-color: #f8f8f8 !important;
+}
+
+form.form-login div.checkbox-container label input:checked ~ .check {
+
+  background-color: #f8f8f8 !important;
+}
+
+.check::after {
+
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+form.form-login div.checkbox-container label input:checked ~ .check::after {
+
+  display: block;
+}
+
+form.form-login div.checkbox-container label .check::after {
+
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #FFFFFF;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+form.form-login input.submit {
+
+  background-color: #212121;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  color: #FFFFFF;
+  width: 100%;
+  padding: 1em;
+}
+
+form.form-login input.submit:active {
+
+  opacity: 0.7;
+}
+
+form.form-login div.form-divider {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+form.form-login div.form-divider div.hr-container {
+
+  width: 100%;
+}
+
+form.form-login div.form-divider p.hr-divisor {
+
+  margin: 0em 1em;
+}
+
+form.form-login button.button-facebook {
+
+  background-color: #3F5D9B;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  width: 100%;
+  padding: 1em;
+}
+
+form.form-login button.button-facebook:active {
+
+  opacity: 0.7;
+}
+
+form.form-login button.button-facebook img{
+
+  width: 20%;
+  height: 20%;
+}
+
+form.form-login a {
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+form.form-login a:active {
+
+  opacity: 0.7;
+}
+
+.inputs-container font { width: 100%; }
+
+/* ////////////////////////////////// */
+/* //Responsive Design Media Querys// */
+/* ////////////////////////////////// */
+
+@media(min-width:768px) {
+}
+
+@media only screen and (max-width: 640px) {
+  
+  form.form-login { width: 100% !important; }
+  .form-error { width: 85% !important; }
+}
+
+@media (max-height:640px) {
+
+  .margin-for-rows {
+
+    margin-top: 1em;
+  }
+}

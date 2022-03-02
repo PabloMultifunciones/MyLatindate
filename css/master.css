@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  color: #212121;
+}
+
+body {
+
+  background-color: #FFFFFF;
+}
+
+.margin-for-menubar {
+
+  margin-top: 4em;
+}
+
+.margin-for-sections {
+
+  margin-top: 2em;
+}
+
+.margin-for-rows {
+
+  margin-top: 0.6em;
+}
+
+.center-to-parent {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-to-parent {
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.left-to-parent {
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.cursor-pointer:hover {
+
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6, p, label, span {
+
+  margin: 0px;
+}
+
+.text-primary, .text-primary font {
+
+  color: #fe3078;
+}
+
+.text-blue, .text-blue font {
+
+  color: #004EBB;
+}
+
+.text-white, .text-white font {
+
+  color: #FFFFFF;
+}
+
+.text-bold {
+
+  font-weight: bold;
+}
+
+.text-cursive {
+
+  font-style: italic;
+}
+
+.text-center {
+
+  text-align: center;
+}
+
+.text-left {
+
+  text-align: left;
+}
+
+.text-right {
+
+  text-align: right;
+}
+
+.text-justify {
+
+  text-align: justify;
+}
+
+.text-uppercase {
+
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+
+  text-transform: capitalize;
+}
+
+/* img {
+
+  width: 100%;
+  height: 100%;
+} */
+
+p.p-title {
+
+  font-size: 16px;
+}
+
+p.p-title span {
+  font-size: 20px;
+}
+
+p.p-description {}
+
+a.no-decoration {
+
+  text-decoration: none;
+}
+
+dt {
+
+  font-size: 18px;
+}
+
+dd {
+
+  padding-left: 2em;
+}
+
+.background-primary {
+
+  background-color: #fe3078;
+  padding: 2em;
+}
+
+.background-simple {
+
+  padding: 2em;
+}
+
+/* Style the container for inputs */
+.container {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.title-val {
+  color: #6E6E6E;
+}
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 5px 35px;
+  font-size: 14px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid b {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: #FA5858;
+}
+
+.invalid b {
+  color: #FA5858;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
+
+footer {
+  padding: 2em;
+}
+
+.latin-single {
+
+  background: linear-gradient(to right, #00ADEE, #004EBB);
+  padding: .8em;
+}
+
+.bg-latin-single {
+  background: url("../img/backgrounds/latin-single.png");
+  background-color: #FFF;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-start-success {
+  background-image: url("../img/backgrounds/start-success.png");
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.mg-0 { margin: 0px !important; } .mg-tb-20 { margin: 20px auto; } .mg-tb-40 { margin: 40px auto; }
+.pd-t-2 { padding-top: 2px; } .pd-t-20 { padding-top: 20px; } 
+.pd-tp-15 { padding: 15px 5px; } .pd-tp-20 { padding: 20px 0px; } .pd-tp-40 { padding: 40px 0px; } .pd-tp-100 { padding: 100px 0px; } 
+.pd-lr-25 { padding: 0px 25px; } .pd-lr-17 { padding: 0px 17px; } .pd-lr-30 { padding: 0px 30px; }
+.w-65 { width: 65px !important; } .w-100 { width: 100px !important; } .w-340 { width: 340 !important; }
+.select-lang { padding: 4px 2px; border: 0px; background: rgba(0, 0, 0, 0.6); border-radius: 4px; color: #fff; margin-left: 12px; }
+
+.fsize-50 { font-size: 50px !important; }
+/* ////////////////////////////////// */
+/* //Responsive Design Media Querys// */
+/* ////////////////////////////////// */
+
+@media(min-width:768px) {
+
+  p.p-description {
+
+    font-size: 18px;
+  }
+
+  dt {
+
+    font-size: 24px;
+  }
+
+  dd {
+
+    font-size: 18px;
+  }
+}
+
+@media (max-height:640px) {
+}

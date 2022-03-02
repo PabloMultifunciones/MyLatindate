@@ -1,0 +1,276 @@
+header.hero-image {
+
+  background: url("../img/backgrounds/index_banner_image.png");
+  background-size: 102% 90%;
+  background-repeat: no-repeat;
+}
+
+header div.form-container {
+
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em 1em;
+}
+
+form.form-register {
+
+  background: linear-gradient(#010d719e, #010d717d);
+  max-width: 430px;
+}
+
+form.form-register p.form-title {
+
+  font-size: 24px;
+}
+
+form.form-register hr {
+
+  border-color: #FFFFFF;
+  width: 100%;
+  margin: 0px;
+}
+
+form.form-register div.inputs-container {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+form.form-register div.gender-container {
+
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+form.form-register div.gender-container p {
+
+  font-size: 25px;
+}
+
+form.form-register div.gender-container img {
+
+  margin-right: 2em;
+}
+
+form.form-register input.input-text {
+
+  border-radius: 15px;
+  outline: none;
+  width: 90%;
+  padding: .7em;
+}
+
+form.form-register input.submit {
+
+  background-color: #212121;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  color: #FFFFFF;
+  width: 100%;
+  padding: 1em;
+}
+
+form.form-register input.submit:active {
+
+  opacity: 0.7;
+}
+
+form.form-register div.form-divider {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+form.form-register div.form-divider div.hr-container {
+
+  width: 100%;
+}
+
+form.form-register div.form-divider p.hr-divisor {
+
+  margin: 0em 1em;
+}
+
+form.form-register button.button-facebook {
+
+  background-color: #3F5D9B;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  width: 100%;
+  padding: .5em;
+}
+
+form.form-register button.button-facebook:active {
+
+  opacity: 0.7;
+}
+
+form.form-register button.button-facebook img{
+
+  width: 20%;
+  height: 20%;
+}
+
+form.form-register p.footer {
+
+  font-size: 77%;
+}
+
+footer span {
+
+  font-size: 125%;
+}
+
+header div.footer {
+
+  background-color: #fe3078;
+  padding: 1.4em;
+}
+
+div.footer span {
+
+  font-size: 125%;
+}
+
+h2 {
+
+  font-size: 30px;
+}
+
+section.second-section h2{
+
+  font-size: 37.5px;
+}
+
+section.second-section p{
+
+  font-size: 23px;
+}
+
+section div.info-container {
+
+  display: flex;
+  align-items: center;
+}
+
+section div.info {
+
+  width: 62%;
+}
+
+section div.info-single {
+  width: 75% !important;
+}
+
+section div.info {
+
+  font-size: 18px;
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 1em;
+}
+
+section div.img img {
+
+  display: flex;
+  justify-content: flex-start;
+  max-width: 420px;
+}
+
+section div.icons-container, section div.icons-description-container {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+section div.icons-description-container div.description-container div.description {
+
+  padding: 0em 3em;
+}
+
+section div.icons-description-container div.description-container p.title {
+
+  font-size: 25px !important;
+}
+
+section div.icons-description-container div.description-container p.margin {
+
+  padding-left: 2em;
+}
+
+button.btn-find-match {
+
+  background-color: transparent;
+  border: solid;
+  border-color: #FFFFFF;
+  border-radius: 5px;
+  outline: none;
+  color: #FFFFFF;
+  padding: 1em;
+}
+
+button.btn-find-match font {
+  color: #FFFFFF;
+}
+
+button.btn-find-match:active {
+
+  opacity: 0.7;
+}
+
+.background-simple img {
+
+  max-width: 300px;
+}
+
+.background-simple hr {
+
+  border-color: #fe3078;
+  max-width: 600px;
+}
+
+.body--banner {
+  margin: 0 10rem;
+}
+
+.side-banner {
+    position: absolute;
+    top: 0px;
+    background: purple;
+    width: 10rem;
+    height: 0px;
+    overflow: hidden;
+}
+
+.side-banner--left {
+    left: 0;
+}
+
+.side-banner--right {
+    right: 0;
+}
+
+/* ////////////////////////////////// */
+/* //Responsive Design Media Querys// */
+/* ////////////////////////////////// */
+
+@media(min-width:768px) {
+}
+
+@media(min-width:1024px) {
+
+  section div.img img {
+
+    max-width: 400px;
+  }
+}
+
+@media (max-height:640px) {
+}
